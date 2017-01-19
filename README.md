@@ -72,8 +72,8 @@ The [docker-compose.yml](./docker-compose.yml) file simplifies launching the con
 automatically starts the application. Just run `docker-compose up`
 
 This also makes it easy to fire up additional services (MongoDB, redis, whatever) and
-use reference them in the app. See [the documentation](https://docs.docker.com/compose/overview/)
-for more details.
+reference them from the app. See
+[the documentation](https://docs.docker.com/compose/overview/) for more details.
 
 ## Other links
 
