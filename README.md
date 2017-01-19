@@ -11,13 +11,16 @@ this seems to provide the best links to the various versions that are out there:
 
 https://github.com/dotnet/core/tree/master/release-notes
 
-According to dotnet/dotnet-docker#177, there isn't an official image for preview4
+According to https://github.com/dotnet/dotnet-docker/pull/177, there isn't an official image for preview4
 from Microsoft yet, the local [Dockerfile](./Dockerfile) builds a version that has
 the updated SDK. Build it with:
 
 ```sh
 $ docker build -t dotnet:1.0-preview4 .
 ```
+
+Should be able to switch to an official version shortly. Also it would be nice to look
+into the Alpine Linux version once that's available: https://github.com/dotnet/coreclr/issues/917
 
 ## F# App / Docker
 

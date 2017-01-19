@@ -21,5 +21,5 @@ module App =
     choose [
       path "/" >=> OK "howdy"
       path "/context" >=> dumpContext
-      NOT_FOUND "wuh"
+      NOT_FOUND "wuh?"
     ]
