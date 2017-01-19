@@ -74,3 +74,12 @@ automatically starts the application. Just run `docker-compose up`
 This also makes it easy to fire up additional services (MongoDB, redis, whatever) and
 use reference them in the app. See [the documentation](https://docs.docker.com/compose/overview/)
 for more details.
+
+## Other links
+
+So they don't get lost...
+
+* http://ionide.io/
+* http://banashek.com/posts/20160602-fsharp-live-development-docker.html
+* https://github.com/Krzysztof-Cieslak/Suave.Kestrel
+* http://blog.2mas.xyz/fsharp-suave-app-on-dotnet-core-on-kubernetes-on-google-cloud/
