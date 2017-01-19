@@ -1,0 +1,8 @@
+web:
+  build: .
+  working_dir: /app
+  command: sh ./watch.sh
+  ports:
+    - "8080:8080"
+  volumes:
+    - ./app:/app
